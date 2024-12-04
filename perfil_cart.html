@@ -1,0 +1,41 @@
+perfil_cart.html
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="perfil.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Carrinho de Compras</h1>
+            <a href="perfil.html" class="cart-link">Voltar para a loja</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="cart-container">
+            <h2>Itens no seu Carrinho</h2>
+            <ul id="cart-items">
+                <li>Seu carrinho está vazio.</li>
+            </ul>
+            <div class="total">
+                <strong>Total: R$ <span id="total-price">0.00</span></strong>
+            </div>
+            <button id="clear-cart" class="cart-action">Limpar Carrinho</button>
+            <button id="checkout" class="cart-action">Finalizar Compra</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Minha Loja</p>
+    </footer>
+
+    <script src="perfil.js"></script>
+</body>
+
+</html>
