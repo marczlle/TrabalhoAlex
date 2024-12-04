@@ -1,4 +1,3 @@
-carrossel.js
 // Selecionando os elementos do carrossel
 const carouselImages = document.querySelector('.carousel-images');
 const images = document.querySelectorAll('.carousel-images img');
